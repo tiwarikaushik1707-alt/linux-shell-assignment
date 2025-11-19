@@ -3,7 +3,7 @@
 # Script Name : backup.sh
 # Purpose     : To create a backup of a directory with a timestamp
 # Author      : Kaushik
-# Date        : (Write date)
+# Date        : 18-11-2025
 # -----------------------------------------------------
 
 # Directory to be backed up
@@ -19,3 +19,4 @@ mkdir "$backup_dir"
 cp -r "$source_dir" "$backup_dir"
 
 echo "Backup completed successfully! Backup saved in: $backup_dir"
+
