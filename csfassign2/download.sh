@@ -3,7 +3,7 @@
 # Script Name : download.sh
 # Purpose     : Downloads a file using wget and stores it
 # Author      : Kaushik
-# Date        : (Write date)
+# Date        : 18-11-2025
 # -----------------------------------------------------
 
 # File URL to download
@@ -16,3 +16,4 @@ destination="$HOME/Downloads"
 wget -P "$destination" "$url"
 
 echo "Download completed! File saved in: $destination"
+
