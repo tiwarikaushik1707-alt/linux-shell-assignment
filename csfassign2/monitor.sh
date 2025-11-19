@@ -3,7 +3,7 @@
 # Script Name : monitor.sh
 # Purpose     : Logs the CPU and memory usage into a file
 # Author      : Kaushik
-# Date        : (Write date)
+# Date        : 18-11-2025
 # -----------------------------------------------------
 
 logfile="system_usage_log.txt"
@@ -18,3 +18,4 @@ top -b -n 1 | head -5 >> $logfile
 echo " " >> $logfile
 
 echo "Log updated successfully! Check the file: $logfile"
+
